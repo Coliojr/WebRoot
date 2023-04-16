@@ -29,7 +29,7 @@
 } */
 
 #override {
-    font-size: 30px;
+    font-size: 1.6vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
     background-color: lightblue;
@@ -40,6 +40,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    font-size: 1.6vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    background-color: lightblue;
+}
+
+h1, .foo {
+    text-align: center;
+}
 /*
 @media only screen and (max-width: 576px) {
     .col {
